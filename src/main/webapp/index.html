@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManeeshFoods - Food Delivery Service</title>
+    <link rel="stylesheet" href="styles.css">
+  	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+            <h1>ManeeshFoods</h1>
+                
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for food and restaurants">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Offers</a>
+                <a href="#">Help</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="#" class="login-btn">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Delicious food delivered to your doorstep</h1>
+            <p>Order from your favorite restaurants with just a few clicks</p>
+            <div class="location-search">
+                <input type="text" placeholder="Enter your delivery location">
+                <button>Find Food</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Listings -->
+    <section class="restaurants">
+        <div class="restaurant-grid">
+            <!-- Restaurant 1 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80" alt="Spice Garden">
+                    <span class="promoted">Promoted</span>
+                </div>
+                <div class="card-content">
+                    <h3>Spice Garden</h3>
+                    <div class="rating">
+                        <span class="stars">4.8 ★</span>
+                        <span class="reviews">(2.5k reviews)</span>
+                    </div>
+                    <p class="location">Connaught Place, Delhi</p>
+                    <div class="cuisine">
+                        <span>North Indian</span>
+                        <span>Mughlai</span>
+                        <span>Beverages</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">25-35 min</span>
+                        <span class="cost">₹400 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 2 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&auto=format&fit=crop&q=80"alt="Sushi Master">
+                    <span class="promoted">New</span>
+                </div>
+                <div class="card-content">
+                    <h3>Sushi Master</h3>
+                    <div class="rating">
+                        <span class="stars">4.6 ★</span>
+                        <span class="reviews">(1.8k reviews)</span>
+                    </div>
+                    <p class="location">Cyber City, Gurgaon</p>
+                    <div class="cuisine">
+                        <span>Japanese</span>
+                        <span>Asian</span>
+                        <span>Fusion</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">30-40 min</span>
+                        <span class="cost">₹800 for two</span>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Restaurant 3 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&auto=format&fit=crop&q=80" alt="Pizza Paradise">
+                    <span class="promoted">Bestseller</span>
+                </div>
+                <div class="card-content">
+                    <h3>Pizza Paradise</h3>
+                    <div class="rating">
+                        <span class="stars">4.7 ★</span>
+                        <span class="reviews">(3.2k reviews)</span>
+                    </div>
+                    <p class="location">South Delhi</p>
+                    <div class="cuisine">
+                        <span>Italian</span>
+                        <span>Pizza</span>
+                        <span>Pasta</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">20-30 min</span>
+                        <span class="cost">₹600 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 4 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1586816001966-79b736744398?w=800&auto=format&fit=crop&q=80" alt="Taco Fiesta">
+                </div>
+                <div class="card-content">
+                    <h3>Taco Fiesta</h3>
+                    <div class="rating">
+                        <span class="stars">4.4 ★</span>
+                        <span class="reviews">(1.5k reviews)</span>
+                    </div>
+                    <p class="location">Greater Kailash</p>
+                    <div class="cuisine">
+                        <span>Mexican</span>
+                        <span>Fast Food</span>
+                        <span>Beverages</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">25-35 min</span>
+                        <span class="cost">₹500 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 5 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format&fit=crop" alt="Dosa Express">
+                    <span class="promoted">Promoted</span>
+                </div>
+                <div class="card-content">
+                    <h3>Dosa Express</h3>
+                    <div class="rating">
+                        <span class="stars">4.5 ★</span>
+                        <span class="reviews">(2.1k reviews)</span>
+                    </div>
+                    <p class="location">Karol Bagh</p>
+                    <div class="cuisine">
+                        <span>South Indian</span>
+                        <span>Vegetarian</span>
+                        <span>Breakfast</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">15-25 min</span>
+                        <span class="cost">₹300 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 6 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1623341214825-9f4f963727da?q=80&w=2070&auto=format&fit=crop" alt="Burger House">
+                </div>
+                <div class="card-content">
+                    <h3>Burger House</h3>
+                    <div class="rating">
+                        <span class="stars">4.3 ★</span>
+                        <span class="reviews">(1.9k reviews)</span>
+                    </div>
+                    <p class="location">Lajpat Nagar</p>
+                    <div class="cuisine">
+                        <span>American</span>
+                        <span>Fast Food</span>
+                        <span>Beverages</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">20-30 min</span>
+                        <span class="cost">₹400 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 7 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1502998070258-dc1338445ac2?q=80&w=2036&auto=format&fit=crop" alt="Thai Delight">
+                    <span class="promoted">New</span>
+                </div>
+                <div class="card-content">
+                    <h3>Thai Delight</h3>
+                    <div class="rating">
+                        <span class="stars">4.6 ★</span>
+                        <span class="reviews">(1.7k reviews)</span>
+                    </div>
+                    <p class="location">Hauz Khas</p>
+                    <div class="cuisine">
+                        <span>Thai</span>
+                        <span>Asian</span>
+                        <span>Seafood</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">30-40 min</span>
+                        <span class="cost">₹700 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 8 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1609950547346-a4f431435b2b?q=80&w=1974&auto=format&fit=crop" alt="Kebab Corner">
+                </div>
+                <div class="card-content">
+                    <h3>Kebab Corner</h3>
+                    <div class="rating">
+                        <span class="stars">4.4 ★</span>
+                        <span class="reviews">(1.6k reviews)</span>
+                    </div>
+                    <p class="location">Chandni Chowk</p>
+                    <div class="cuisine">
+                        <span>Mughlai</span>
+                        <span>North Indian</span>
+                        <span>BBQ</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">25-35 min</span>
+                        <span class="cost">₹450 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 9 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=2070&auto=format&fit=crop" alt="Ice Cream World">
+                    <span class="promoted">Bestseller</span>
+                </div>
+                <div class="card-content">
+                    <h3>Ice Cream World</h3>
+                    <div class="rating">
+                        <span class="stars">4.7 ★</span>
+                        <span class="reviews">(2.8k reviews)</span>
+                    </div>
+                    <p class="location">Rajouri Garden</p>
+                    <div class="cuisine">
+                        <span>Desserts</span>
+                        <span>Ice Cream</span>
+                        <span>Beverages</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">15-25 min</span>
+                        <span class="cost">₹300 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 10 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1475090169767-40ed8d18f67d?q=80&w=2013&auto=format&fit=crop" alt="Chinese Wok">
+                </div>
+                <div class="card-content">
+                    <h3>Chinese Wok</h3>
+                    <div class="rating">
+                        <span class="stars">4.3 ★</span>
+                        <span class="reviews">(1.4k reviews)</span>
+                    </div>
+                    <p class="location">Pitampura</p>
+                    <div class="cuisine">
+                        <span>Chinese</span>
+                        <span>Asian</span>
+                        <span>Fast Food</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">25-35 min</span>
+                        <span class="cost">₹350 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 11 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?q=80&w=2080&auto=format&fit=crop" alt="Mediterranean Bites">
+                    <span class="promoted">New</span>
+                </div>
+                <div class="card-content">
+                    <h3>Mediterranean Bites</h3>
+                    <div class="rating">
+                        <span class="stars">4.6 ★</span>
+                        <span class="reviews">(1.9k reviews)</span>
+                    </div>
+                    <p class="location">Defence Colony</p>
+                    <div class="cuisine">
+                        <span>Mediterranean</span>
+                        <span>Healthy</span>
+                        <span>Salads</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">30-40 min</span>
+                        <span class="cost">₹600 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 12 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=2035&auto=format&fit=crop" alt="Street Food Hub">
+                </div>
+                <div class="card-content">
+                    <h3>Street Food Hub</h3>
+                    <div class="rating">
+                        <span class="stars">4.5 ★</span>
+                        <span class="reviews">(2.2k reviews)</span>
+                    </div>
+                    <p class="location">Janakpuri</p>
+                    <div class="cuisine">
+                        <span>Street Food</span>
+                        <span>Indian</span>
+                        <span>Snacks</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">20-30 min</span>
+                        <span class="cost">₹250 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 13 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80&w=2070&auto=format&fit=crop" alt="Cafe Coffee">
+                    <span class="promoted">Promoted</span>
+                </div>
+                <div class="card-content">
+                    <h3>Cafe Coffee</h3>
+                    <div class="rating">
+                        <span class="stars">4.4 ★</span>
+                        <span class="reviews">(1.8k reviews)</span>
+                    </div>
+                    <p class="location">Saket</p>
+                    <div class="cuisine">
+                        <span>Cafe</span>
+                        <span>Beverages</span>
+                        <span>Desserts</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">15-25 min</span>
+                        <span class="cost">₹300 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 14 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1617692855027-33b14f061079?q=80&w=2070&auto=format&fit=crop" alt="Biryani House">
+                </div>
+                <div class="card-content">
+                    <h3>Biryani House</h3>
+                    <div class="rating">
+                        <span class="stars">4.7 ★</span>
+                        <span class="reviews">(2.6k reviews)</span>
+                    </div>
+                    <p class="location">Noida</p>
+                    <div class="cuisine">
+                        <span>Hyderabadi</span>
+                        <span>Mughlai</span>
+                        <span>Indian</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">25-35 min</span>
+                        <span class="cost">₹400 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 15 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?q=80&w=2070&auto=format&fit=crop" alt="Sandwich Express">
+                    <span class="promoted">New</span>
+                </div>
+                <div class="card-content">
+                    <h3>Sandwich Express</h3>
+                    <div class="rating">
+                        <span class="stars">4.3 ★</span>
+                        <span class="reviews">(1.5k reviews)</span>
+                    </div>
+                    <p class="location">Rohini</p>
+                    <div class="cuisine">
+                        <span>Fast Food</span>
+                        <span>Sandwiches</span>
+                        <span>Beverages</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">15-25 min</span>
+                        <span class="cost">₹250 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 16 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=2025&auto=format&fit=crop" alt="Punjab Grill">
+                </div>
+                <div class="card-content">
+                    <h3>Punjab Grill</h3>
+                    <div class="rating">
+                        <span class="stars">4.6 ★</span>
+                        <span class="reviews">(2.3k reviews)</span>
+                    </div>
+                    <p class="location">Vasant Vihar</p>
+                    <div class="cuisine">
+                        <span>Punjabi</span>
+                        <span>North Indian</span>
+                        <span>BBQ</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">30-40 min</span>
+                        <span class="cost">₹500 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 17 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop" alt="Pasta Paradise">
+                    <span class="promoted">Bestseller</span>
+                </div>
+                <div class="card-content">
+                    <h3>Pasta Paradise</h3>
+                    <div class="rating">
+                        <span class="stars">4.5 ★</span>
+                        <span class="reviews">(1.9k reviews)</span>
+                    </div>
+                    <p class="location">Green Park</p>
+                    <div class="cuisine">
+                        <span>Italian</span>
+                        <span>Pasta</span>
+                        <span>Pizza</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">25-35 min</span>
+                        <span class="cost">₹450 for two</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant 18 -->
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1534352956036-cd81e27dd615?q=80&w=2080&auto=format&fit=crop" alt="Dessert Corner">
+                </div>
+                <div class="card-content">
+                    <h3>Dessert Corner</h3>
+                    <div class="rating">
+                        <span class="stars">4.7 ★</span>
+                        <span class="reviews">(2.4k reviews)</span>
+                    </div>
+                    <p class="location">Kailash Colony</p>
+                    <div class="cuisine">
+                        <span>Desserts</span>
+                        <span>Bakery</span>
+                        <span>Beverages</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="delivery-time">20-30 min</span>
+                        <span class="cost">₹350 for two</span>
+                    </div>
+                </div>
+            </div>
+
+           
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="https://via.placeholder.com/150x50" alt="ManeeshFoods Logo">
+                <p>ManeeshFoods brings you the best food from your favorite restaurants, delivered right to your doorstep.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@maneeshfoods.com</p>
+                <p>Phone: 1800-123-4567</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="app-links">
+                <a href="#"><img src="https://via.placeholder.com/150x50" alt="App Store"></a>
+                <a href="#"><img src="https://via.placeholder.com/150x50" alt="Google Play"></a>
+            </div>
+            <p>&copy; 2024 ManeeshFoods. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

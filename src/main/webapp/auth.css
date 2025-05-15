@@ -1,0 +1,219 @@
+			@charset "UTF-8";
+			/* Authentication Pages Styles */
+			.auth-section {
+			    min-height: calc(100vh - 70px);
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    background-color: #f8f8f8;
+			    padding: 2rem;
+			}
+			
+			.auth-container {
+			    width: 100%;
+			    max-width: 450px;
+			    margin: 0 auto;
+			}
+			
+			.auth-box {
+			    background: white;
+			    padding: 2rem;
+			    border-radius: 8px;
+			    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			}
+			
+			.auth-box h2 {
+			    text-align: center;
+			    color: #333;
+			    margin-bottom: 2rem;
+			    font-size: 1.8rem;
+			}
+			
+			.auth-form {
+			    display: flex;
+			    flex-direction: column;
+			    gap: 1.5rem;
+			}
+			
+			.form-group {
+			    display: flex;
+			    flex-direction: column;
+			    gap: 0.5rem;
+			}
+			
+			.form-group label {
+			    font-weight: 500;
+			    color: #333;
+			}
+			
+			.input-group {
+			    position: relative;
+			    display: flex;
+			    align-items: center;
+			    border: 1px solid #ddd;
+			    border-radius: 4px;
+			    padding: 0.5rem;
+			    transition: border-color 0.3s;
+			}
+			
+			.input-group:focus-within {
+			    border-color: #fc8019;
+			}
+			
+			.input-group i {
+			    color: #666;
+			    margin-right: 0.5rem;
+			}
+			
+			.input-group input {
+			    flex: 1;
+			    border: none;
+			    outline: none;
+			    font-size: 1rem;
+			    padding: 0.5rem;
+			}
+			
+			.toggle-password {
+			    cursor: pointer;
+			    color: #666;
+			}
+			
+			.form-options {
+			    display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    font-size: 0.9rem;
+			}
+			
+			.remember-me, .terms {
+			    display: flex;
+			    align-items: center;
+			    gap: 0.5rem;
+			    color: #666;
+			}
+			
+			.remember-me input[type="checkbox"],
+			.terms input[type="checkbox"] {
+			    width: 16px;
+			    height: 16px;
+			}
+			
+			.forgot-password {
+			    color: #fc8019;
+			    text-decoration: none;
+			}
+			
+			.forgot-password:hover {
+			    text-decoration: underline;
+			}
+			
+			.auth-button {
+			    background-color: #fc8019;
+			    color: white;
+			    border: none;
+			    padding: 1rem;
+			    border-radius: 4px;
+			    font-size: 1rem;
+			    font-weight: 500;
+			    cursor: pointer;
+			    transition: background-color 0.3s;
+			}
+			
+			.auth-button:hover {
+			    background-color: #e67e22;
+			}
+			
+			.social-login {
+			    text-align: center;
+			    margin-top: 1.5rem;
+			}
+			
+			.social-login p {
+			    color: #666;
+			    margin-bottom: 1rem;
+			    position: relative;
+			}
+			
+			.social-login p::before,
+			.social-login p::after {
+			    content: "";
+			    position: absolute;
+			    top: 50%;
+			    width: 45%;
+			    height: 1px;
+			    background-color: #ddd;
+			}
+			
+			.social-login p::before {
+			    left: 0;
+			}
+			
+			.social-login p::after {
+			    right: 0;
+			}
+			
+			.social-buttons {
+			    display: flex;
+			    gap: 1rem;
+			}
+			
+			.social-button {
+			    flex: 1;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    gap: 0.5rem;
+			    padding: 0.8rem;
+			    border: 1px solid #ddd;
+			    border-radius: 4px;
+			    background: white;
+			    color: #333;
+			    font-size: 0.9rem;
+			    cursor: pointer;
+			    transition: background-color 0.3s;
+			}
+			
+			.social-button:hover {
+			    background-color: #f8f8f8;
+			}
+			
+			.social-button.google {
+			    color: #db4437;
+			}
+			
+			.social-button.facebook {
+			    color: #4267B2;
+			}
+			
+			.auth-footer {
+			    text-align: center;
+			    margin-top: 1.5rem;
+			    color: #666;
+			}
+			
+			.auth-footer a {
+			    color: #fc8019;
+			    text-decoration: none;
+			    font-weight: 500;
+			}
+			
+			.auth-footer a:hover {
+			    text-decoration: underline;
+			}
+			
+			/* Responsive Design */
+			@media (max-width: 480px) {
+			    .auth-box {
+			        padding: 1.5rem;
+			    }
+			
+			    .social-buttons {
+			        flex-direction: column;
+			    }
+			
+			    .form-options {
+			        flex-direction: column;
+			        gap: 1rem;
+			        align-items: flex-start;
+			    }
+			} 
