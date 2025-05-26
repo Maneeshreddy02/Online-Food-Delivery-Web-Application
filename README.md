@@ -80,7 +80,7 @@ SQL scripts to create and populate tables are available in the `database/` folde
 │ ├── jsp/
 │ ├── css/
 │ └── WEB-INF/
-└── database/</pre>
+</pre>
 ---
 🙋‍♂️ Author Maneesh Reddy Bhumireddy Connect on LinkedIn(www.linkedin.com/in/maneesh-reddy-bhumireddy-6566a3276) | Email: maneeshreddy200@gmail.com
 
