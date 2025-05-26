@@ -76,6 +76,7 @@ SQL scripts to create and populate tables are available in the `database/` folde
 │ ├── com.maneesh.dao.impl/
 │ └── com.maneesh.servlet/
 ├── WebContent/
+│ ├── images/
 │ ├── jsp/
 │ ├── css/
 │ └── WEB-INF/
