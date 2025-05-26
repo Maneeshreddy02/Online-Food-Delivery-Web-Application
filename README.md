@@ -69,8 +69,8 @@ SQL scripts to create and populate tables are available in the `database/` folde
 ---
 
 ## 📁 Folder Structure
-FoodDeliveryApp/
-├── src/
+
+<pre>├── src/
 │ ├── com.maneesh.model/
 │ ├── com.maneesh.dao/
 │ ├── com.maneesh.dao.impl/
@@ -79,6 +79,8 @@ FoodDeliveryApp/
 │ ├── jsp/
 │ ├── css/
 │ └── WEB-INF/
-└── database/
+└── database/</pre>
+---
+🙋‍♂️ Author Maneesh Reddy Bhumireddy Connect on LinkedIn(www.linkedin.com/in/maneesh-reddy-bhumireddy-6566a3276) | Email: maneeshreddy200@gmail.com
 
 
