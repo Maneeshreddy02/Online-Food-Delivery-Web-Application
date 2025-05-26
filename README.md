@@ -82,6 +82,8 @@ SQL scripts to create and populate tables are available in the `database/` folde
 │ └── WEB-INF/
 </pre>
 ---
-🙋‍♂️ Author Maneesh Reddy Bhumireddy Connect on LinkedIn(www.linkedin.com/in/maneesh-reddy-bhumireddy-6566a3276) | Email: maneeshreddy200@gmail.com
+🙋‍♂️ Author 
+
+Maneesh Reddy Bhumireddy Connect on LinkedIn(www.linkedin.com/in/maneesh-reddy-bhumireddy-6566a3276) | Email: maneeshreddy200@gmail.com
 
 
